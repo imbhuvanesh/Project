@@ -110,12 +110,6 @@ body {
   border-color: #fff;
 }
 
-.project-card .index {
-  font-size: 0.8rem;
-  letter-spacing: 2px;
-  color: #666;
-}
-
 .project-card .type {
   align-self: flex-start;
   display: inline-flex;

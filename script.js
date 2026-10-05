@@ -95,7 +95,6 @@ projects.forEach((p, i) => {
   card.className = 'card project-card';
   card.dataset.cats = p.cats.join(' ');
   card.innerHTML = `
-    <span class="index">${String(i + 1).padStart(2, '0')}</span>
     <h2>${p.name}</h2>
     <span class="type">${p.type === 'Android' ? icons.mobile : p.type === 'Web & Desktop' ? icons.web + icons.desktop : icons.web} ${p.type}</span>
     <p>${p.desc}</p>
